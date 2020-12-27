@@ -53,7 +53,7 @@ STRIPE_PRICE_ID="price_tttttttttttttttttttttttttttttttttttttt"
 STRIPE_ENDPOINT_SECRET = "whsec_hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
 ```
 
-To fill up the value signup at Stripe and obtain those keys. Refer to [this-section](#add-stripe) and [this-section](#create-a-product).
+To fill up the valuees, signup at Stripe and obtain those keys. Refer to [this-section](#add-stripe) and [this-section](#create-a-product).
 
 ```cmd
 python manage.py migrate
