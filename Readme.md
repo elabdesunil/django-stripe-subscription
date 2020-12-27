@@ -820,7 +820,7 @@ modify `templates/home.html` to show new data from the view:
 </html>
 ```
 
-I am adding `subscription.current_period_start` and `subscription.current_period_end` to display the start and end dates for the current subscription but the problem is that the date are in Unix timestamp which are basically human readable. So, I have created a function that will registered as a `filter` in Django Template library.
+I am adding `subscription.current_period_start` and `subscription.current_period_end` to display the start and end dates for the current subscription but the problem is that the dates are in Unix timestamp format which are basically human non-readable. So, I have created a function that will registered as a `filter` in Django Template library.
 To do that create a folder in `subcriptions/` called `templatetags` and put two files in it `__init__py`, which will remain blank and `timetags.py` which will be populated with the following codes:
 
 ```python
