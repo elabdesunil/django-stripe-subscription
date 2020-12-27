@@ -55,6 +55,11 @@ STRIPE_ENDPOINT_SECRET = "whsec_hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
 
 To fill up the value signup at Stripe and obtain those keys. Refer to [this-section](#add-stripe) and [this-section](#create-a-product).
 
+```cmd
+python manage.py migrate
+python manage.py runserver
+```
+
 ## Stripe Subscription Payment Options
 
 There are two most commont ways to implement and handle Subscriptions:
